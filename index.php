@@ -215,8 +215,8 @@
                             <div class="c-graph-card__content">
                                 <h3 class="c-graph-card__title">Total Earnings</h3>
                                 <p class="c-graph-card__date">In 15 Months</p>
-                                <h4 class="c-graph-card__number">$23,580</h4>
-                                <p class="c-graph-card__status">Last Month you’ve made $2,980</p>
+                                <h4 class="c-graph-card__number">&#8358;30,000</h4>
+                                <p class="c-graph-card__status">Last Month you’ve made &#8358;10,000</p>
                             </div>
                             
                             <div class="c-graph-card__chart">
