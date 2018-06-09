@@ -316,11 +316,9 @@
                                 
 
                                 <div class="c-project-card__meta">
-                                    <p>4,870 USD
-                                        <small class="u-block u-text-mute">Budget / Salary</small>
-                                    </p>
-                                    <p>Early Dec 2017
-                                        <small class="u-block u-text-danger">10 Days Remaining</small>
+                                    
+                                    <p>
+                                    <a class="c-btn c-btn--info" href="#">post2earn</a>
                                     </p>
                                 </div>
                             </div>
