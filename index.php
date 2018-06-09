@@ -199,9 +199,9 @@
                         <div class="c-graph-card" data-mh="graph-cards">
                             <div class="c-graph-card__content">
                                 <h3 class="c-graph-card__title">Next Payout</h3>
-                                <p class="c-graph-card__date">Activity from 4 Jan 2017 to 10 Jan 2017</p>
-                                <h4 class="c-graph-card__number">$2,190</h4>
-                                <p class="c-graph-card__status">You’ve made $230 Today</p>
+                                <p class="c-graph-card__date">Activity from 1 june 2018 to 30 June 2018</p>
+                                <h4 class="c-graph-card__number">&#8358;10,000</h4>
+                                <p class="c-graph-card__status">You’ve made &#8358;500 Today</p>
                             </div>
                             
                             <div class="c-graph-card__chart">
