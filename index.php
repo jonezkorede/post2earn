@@ -56,7 +56,7 @@
                         </a>
                     </li>
                     <li class="c-sidebar__item">
-                        <a class="c-sidebar__link" target="_blank" href="account-settings.php">
+                        <a class="c-sidebar__link"  href="account-settings.php">
                             <i class="fa fa-table u-mr-xsmall"></i>Account Settings
                         </a>
                     </li>
@@ -180,9 +180,8 @@
                     </a>
 
                     <div class="c-dropdown__menu dropdown-menu dropdown-menu-right" aria-labelledby="dropdwonMenuAvatar">
-                        <a class="c-dropdown__item dropdown-item" href="#">Edit Profile</a>
-                        <a class="c-dropdown__item dropdown-item" href="#">View Activity</a>
-                        <a class="c-dropdown__item dropdown-item" href="#">Manage Roles</a>
+                        <a class="c-dropdown__item dropdown-item" href="account-settings.php">Edit Profile</a>
+                        <a class="c-dropdown__item dropdown-item" href="logout.php">Logout</a>
                     </div>
                 </div>
             </header>
@@ -294,9 +293,79 @@
                     </div>
                 </div>
 
-                <span class="c-divider has-text u-mb-medium">Active Projects</span>
+                <span class="c-divider has-text u-mb-medium">Available Ads</span>
 
                 <div class="row">
+                    <div class="col-sm-6 col-lg-6">
+                        <div class="c-project">
+                            <div class="c-project__img">
+                                <img src="img/project-board2.jpg" alt="Waves">
+                            </div>
+
+                            <h3 class="c-project__title">Mountains
+                                <span class="c-project__status">Last updated: <span class="u-text-bold">Monday 1:41 AM</span></span>
+                            </h3>
+
+                            <div class="c-project__team">
+                                
+                                <a class="c-project__profile c-tooltip c-tooltip--top" aria-label="Joseph Mullins" href="#">
+                                    <img src="img/avatar5-72.jpg" alt="Adam's Face">
+                                </a>
+
+                                <a class="c-project__profile c-tooltip c-tooltip--top" aria-label="Stella Munoz" href="#">
+                                    <img src="img/avatar6-72.jpg" alt="Adam's Face">
+                                </a>
+
+                                <a class="c-project__profile c-tooltip c-tooltip--top" aria-label="Una Higgins" href="#">
+                                    <img src="img/avatar7-72.jpg" alt="Adam's Face">
+                                </a>
+
+                                <a class="c-project__profile c-tooltip c-tooltip--top" aria-label="Dylan Shelton" href="#">
+                                    <img src="img/avatar8-72.jpg" alt="Adam's Face">
+                                </a>
+
+                                <a class="c-project__profile c-project__profile--btn c-tooltip c-tooltip--top" aria-label="Add a new member" href="#">
+                                    <i class="fa fa-plus"></i>
+                                </a>
+                            </div>
+
+                        </div><!-- // .c-project -->
+                    </div>
+                    <div class="col-sm-6 col-lg-6">
+                        <div class="c-project">
+                            <div class="c-project__img">
+                                <img src="img/project-board2.jpg" alt="Waves">
+                            </div>
+
+                            <h3 class="c-project__title">Mountains
+                                <span class="c-project__status">Last updated: <span class="u-text-bold">Monday 1:41 AM</span></span>
+                            </h3>
+
+                            <div class="c-project__team">
+                                
+                                <a class="c-project__profile c-tooltip c-tooltip--top" aria-label="Joseph Mullins" href="#">
+                                    <img src="img/avatar5-72.jpg" alt="Adam's Face">
+                                </a>
+
+                                <a class="c-project__profile c-tooltip c-tooltip--top" aria-label="Stella Munoz" href="#">
+                                    <img src="img/avatar6-72.jpg" alt="Adam's Face">
+                                </a>
+
+                                <a class="c-project__profile c-tooltip c-tooltip--top" aria-label="Una Higgins" href="#">
+                                    <img src="img/avatar7-72.jpg" alt="Adam's Face">
+                                </a>
+
+                                <a class="c-project__profile c-tooltip c-tooltip--top" aria-label="Dylan Shelton" href="#">
+                                    <img src="img/avatar8-72.jpg" alt="Adam's Face">
+                                </a>
+
+                                <a class="c-project__profile c-project__profile--btn c-tooltip c-tooltip--top" aria-label="Add a new member" href="#">
+                                    <i class="fa fa-plus"></i>
+                                </a>
+                            </div>
+
+                        </div><!-- // .c-project -->
+                    </div>
                     <div class="col-sm-6 col-lg-6 col-xl-3">
 
                         <div class="c-project-card u-mb-medium">

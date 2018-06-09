@@ -62,7 +62,7 @@
                         </a>
                     </li>
                     <li class="c-sidebar__item">
-                        <a class="c-sidebar__link" target="_blank" href="account-settings.php">
+                       <a class="c-sidebar__link"  href="account-settings.php">
                             <i class="fa fa-table u-mr-xsmall"></i>Account Settings
                         </a>
                     </li>
@@ -186,9 +186,8 @@
                     </a>
 
                     <div class="c-dropdown__menu dropdown-menu dropdown-menu-right" aria-labelledby="dropdwonMenuAvatar">
-                        <a class="c-dropdown__item dropdown-item" href="#">Edit Profile</a>
-                        <a class="c-dropdown__item dropdown-item" href="#">View Activity</a>
-                        <a class="c-dropdown__item dropdown-item" href="#">Manage Roles</a>
+                        <a class="c-dropdown__item dropdown-item" href="account-settings.php">Edit Profile</a>
+                        <a class="c-dropdown__item dropdown-item" href="logout.php">Logout</a>
                     </div>
                 </div>
             </header>

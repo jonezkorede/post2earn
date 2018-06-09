@@ -62,7 +62,7 @@
                         </a>
                     </li>
                     <li class="c-sidebar__item">
-                        <a class="c-sidebar__link" target="_blank" href="account-settings.php">
+                       <a class="c-sidebar__link"  href="account-settings.php">
                             <i class="fa fa-table u-mr-xsmall"></i>Account Settings
                         </a>
                     </li>
