@@ -1,11 +1,10 @@
 <!doctype html>
 <html lang="en-us">
     
-<!-- Mirrored from dashboard.zawiastudio.com/demo/plans.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Jun 2018 17:07:15 GMT -->
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Plans / Pricing | Dashboard UI Kit</title>
+        <title>Home Overview | Dashboard UI Kit</title>
         <meta name="description" content="Dashboard UI Kit">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -34,7 +33,7 @@
                 <ul class="c-sidebar__list">
 
                     <li class="c-sidebar__item">
-                        <a class="c-sidebar__link" href="home-overview.html">
+                        <a class="c-sidebar__link is-active" href="home-overview.html">
                             <i class="fa fa-home u-mr-xsmall"></i>Overview
                         </a>
                     </li>
@@ -156,7 +155,7 @@
                     </li>
 
                     <li class="c-sidebar__item">
-                        <a class="c-sidebar__link is-active" href="plans.html">
+                        <a class="c-sidebar__link" href="plans.html">
                             <i class="fa fa-bullhorn u-mr-xsmall"></i>Pricing
                         </a>
                     </li>
@@ -257,7 +256,7 @@
                     <span class="c-sidebar-toggle__bar"></span>
                 </button><!-- // .c-sidebar-toggle -->
 
-                <h2 class="c-navbar__title u-mr-auto">Pircing</h2>
+                <h2 class="c-navbar__title u-mr-auto">Account</h2>
                 
                 <div class="c-dropdown u-hidden-down@mobile">
                     <a class="c-notification dropdown-toggle" href="#" id="dropdownMenuUser" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -271,7 +270,7 @@
                         <a href="#" class="c-dropdown__item dropdown-item o-media">
                             <span class="o-media__img u-mr-xsmall">
                                 <span class="c-avatar c-avatar--xsmall">
-                                    <img class="c-avatar__img" src="img/avatar-72.jpg" alt="User's Profile Picture">
+                                    <img class="c-avatar__img" src="img/avatar2-72.jpg" alt="User's Profile Picture">
                                 </span>
                             </span>
                             <div class="o-media__body">
@@ -282,7 +281,7 @@
                         <a href="#" class="c-dropdown__item dropdown-item o-media">
                             <span class="o-media__img u-mr-xsmall">
                                 <span class="c-avatar c-avatar--xsmall">
-                                    <img class="c-avatar__img" src="img/avatar2-72.jpg" alt="User's Profile Picture">
+                                    <img class="c-avatar__img" src="img/avatar3-72.jpg" alt="User's Profile Picture">
                                 </span>
                             </span>
                             <div class="o-media__body">
@@ -293,7 +292,7 @@
                         <a href="#" class="c-dropdown__item dropdown-item o-media">
                             <span class="o-media__img u-mr-xsmall">
                                 <span class="c-avatar c-avatar--xsmall">
-                                    <img class="c-avatar__img" src="img/avatar3-72.jpg" alt="User's Profile Picture">
+                                    <img class="c-avatar__img" src="img/avatar4-72.jpg" alt="User's Profile Picture">
                                 </span>
                             </span>
                             <div class="o-media__body">
@@ -374,143 +373,334 @@
 
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12">
-                        <div class="c-card u-p-medium">
-                            <div class="row u-justify-center">
-                                <div class="col-md-7">
-                                    <div class="u-mt-large u-text-center">
-                                        <h4 class="u-mb-xsmall">Small startup? Big company? We’ve got a plan.</h4>
-                                        <p class="u-text-mute u-mb-large">Pricing is based on two things: Number of opened projects, and the number of seats you want for your team. Plans start at $19/month.</p>
-                                    </div>
-                                </div>
+                    <div class="col-xl-4">
+                        <div class="c-graph-card" data-mh="graph-cards">
+                            <div class="c-graph-card__content">
+                                <h3 class="c-graph-card__title">Next Payout</h3>
+                                <p class="c-graph-card__date">Activity from 4 Jan 2017 to 10 Jan 2017</p>
+                                <h4 class="c-graph-card__number">$2,190</h4>
+                                <p class="c-graph-card__status">You’ve made $230 Today</p>
                             </div>
-
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <article class="c-plan">
-                                        <img class="c-plan__img" src="img/price-icon.svg" alt="Pricing Icon">
-                                        
-                                        <h5 class="c-plan__title">Basic</h5>
-
-                                        <h4 class="c-plan__price">
-                                        $19<span class="u-text-mute u-h6">/month</span></h4>
-
-                                        <h5 class="c-plan__note">max. 1 user</h5>
-
-                                        <span class="c-plan__divider"></span>
-
-                                        <ul>
-                                            <li class="c-plan__feature">
-                                                <span>10</span> Projects
-                                            </li>
-                                            <li class="c-plan__feature">
-                                                <span>3</span> Clients
-                                            </li>
-                                            <li class="c-plan__feature">
-                                                <span>Unlimited</span> Messages
-                                            </li>
-                                        </ul>
-
-                                        <a href="#" class="c-btn c-btn--success u-mt-medium">Contact US</a>
-                                    </article><!-- // .c-plan -->
-                                </div>
-
-                                <div class="col-md-3">
-
-                                    <article class="c-plan">
-                                        <img class="c-plan__img" src="img/price-icon2.svg" alt="Pricing Icon">
-                                        
-                                        <h5 class="c-plan__title">Basic</h5>
-
-                                        <h4 class="c-plan__price">
-                                        $19<span class="u-text-mute u-h6">/month</span></h4>
-
-                                        <h5 class="c-plan__note">max. 1 user</h5>
-
-                                        <span class="c-plan__divider"></span>
-
-                                        <ul>
-                                            <li class="c-plan__feature">
-                                                <strong>10</strong> Projects
-                                            </li>
-                                            <li class="c-plan__feature">
-                                                <strong>3</strong> Clients
-                                            </li>
-                                            <li class="c-plan__feature">
-                                                <strong>Unlimited</strong> Messages
-                                            </li>
-                                        </ul>
-
-                                        <a href="#" class="c-btn c-btn--warning u-mt-medium">Contact US</a>
-                                    </article><!-- // .c-plan -->
-
-                                </div>
-
-                                <div class="col-md-3">
-
-                                    <article class="c-plan">
-                                        <img class="c-plan__img" src="img/price-icon3.svg" alt="Pricing Icon">
-                                        
-                                        <h5 class="c-plan__title">Basic</h5>
-
-                                        <h4 class="c-plan__price">
-                                        $19<span class="u-text-mute u-h6">/month</span></h4>
-
-                                        <h5 class="c-plan__note">max. 1 user</h5>
-
-                                        <span class="c-plan__divider"></span>
-
-                                        <ul>
-                                            <li class="c-plan__feature">
-                                                <span>10</span> Projects
-                                            </li>
-                                            <li class="c-plan__feature">
-                                                <span>3</span> Clients
-                                            </li>
-                                            <li class="c-plan__feature">
-                                                <span>Unlimited</span> Messages
-                                            </li>
-                                        </ul>
-
-                                        <a href="#" class="c-btn c-btn--info u-mt-medium">Contact US</a>
-                                    </article><!-- // .c-plan -->
-
-                                </div>
-
-                                <div class="col-md-3">
-
-                                    <article class="c-plan">
-                                        <img class="c-plan__img" src="img/price-icon4.svg" alt="Pricing Icon">
-                                        
-                                        <h5 class="c-plan__title">Basic</h5>
-
-                                        <h4 class="c-plan__price">
-                                        $19<span class="u-text-mute u-h6">/month</span></h4>
-
-                                        <h5 class="c-plan__note">max. 1 user</h5>
-
-                                        <span class="c-plan__divider"></span>
-
-                                        <ul>
-                                            <li class="c-plan__feature">
-                                                <span>10</span> Projects
-                                            </li>
-                                            <li class="c-plan__feature">
-                                                <span>3</span> Clients
-                                            </li>
-                                            <li class="c-plan__feature">
-                                                <span>Unlimited</span> Messages
-                                            </li>
-                                        </ul>
-
-                                        <a href="#" class="c-btn c-btn--fancy u-mt-medium">Contact US</a>
-                                    </article><!-- // .c-plan -->
-
-                                </div>
+                            
+                            <div class="c-graph-card__chart">
+                                <canvas id="js-chart-payout" width="300" height="74"></canvas>
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-xl-4">
+                        <div class="c-graph-card" data-mh="graph-cards">
+                            <div class="c-graph-card__content">
+                                <h3 class="c-graph-card__title">Total Earnings</h3>
+                                <p class="c-graph-card__date">In 15 Months</p>
+                                <h4 class="c-graph-card__number">$23,580</h4>
+                                <p class="c-graph-card__status">Last Month you’ve made $2,980</p>
+                            </div>
+                            
+                            <div class="c-graph-card__chart">
+                                <canvas id="js-chart-earnings" width="300" height="74"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4">
+                        <div class="c-progress-card" data-mh="graph-cards">
+                            <h3 class="c-progress-card__title">All Tasks Overview</h3>
+                            <p class="c-progress-card__date">Next 4 Weeks</p>
+
+                            <div class="c-progress-card__item">
+                                <div class="c-progress-card__label">Week 3</div>
+
+                                <div class="c-progress-card__progress c-progress c-progress--small">
+                                    <div class="c-progress__bar u-bg-success" style="width:100%;">
+                                        <div class="c-progress__bar u-bg-fancy" style="width: 70%">
+                                            <div class="c-progress__bar u-bg-info" style="width: 50%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- // .c-progress-card__item -->
+
+                            <div class="c-progress-card__item">
+                                <div class="c-progress-card__label">Week 4</div>
+
+                                <div class="c-progress-card__progress c-progress c-progress--small">
+                                    <div class="c-progress__bar u-bg-success" style="width:100%;">
+                                        <div class="c-progress__bar u-bg-fancy" style="width: 70%">
+                                            <div class="c-progress__bar u-bg-info" style="width: 50%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- // .c-progress-card__item -->
+
+                            <div class="c-progress-card__item">
+                                <div class="c-progress-card__label">Week 5</div>
+
+                                <div class="c-progress-card__progress c-progress c-progress--small">
+                                    <div class="c-progress__bar u-bg-success" style="width:100%;">
+                                        <div class="c-progress__bar u-bg-fancy" style="width: 70%">
+                                            <div class="c-progress__bar u-bg-info" style="width: 50%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- // .c-progress-card__item -->
+
+                            <div class="c-progress-card__item">
+                                <div class="c-progress-card__label">Week 6</div>
+
+                                <div class="c-progress-card__progress c-progress c-progress--small">
+                                    <div class="c-progress__bar u-bg-success" style="width:100%;">
+                                        <div class="c-progress__bar u-bg-fancy" style="width: 70%">
+                                            <div class="c-progress__bar u-bg-info" style="width: 50%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- // .c-progress-card__item -->
+                            
+                            <ul class="c-progress-card__legends">
+                                <li class="u-text-mute u-text-xsmall">
+                                    <i class="c-progress-card__legend u-bg-fancy"></i>Progress
+                                </li>
+                                <li class="u-text-mute u-text-xsmall">
+                                    <i class="c-progress-card__legend u-bg-info"></i>Due
+                                </li>
+                                <li class="u-text-mute u-text-xsmall">
+                                    <i class="c-progress-card__legend u-bg-success"></i>OA
+                                </li>
+                                <li class="u-text-mute u-text-xsmall">
+                                    <i class="c-progress-card__legend u-bg-danger"></i>Delegated
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <span class="c-divider has-text u-mb-medium">Active Projects</span>
+
+                <div class="row">
+                    <div class="col-sm-6 col-lg-6 col-xl-3">
+
+                        <div class="c-project-card u-mb-medium">
+                            <img class="c-project-card__img" src="img/project-card1.jpg" alt="About the image">
+
+                            <div class="c-project-card__content">
+                                <div class="c-project-card__head">
+                                    <h4 class="c-project-card__title">Magazine Images</h4>
+                                    <p class="c-project-card__info">Kinfolk  |  Last Update: 21 Dec 2016</p>
+                                </div>
+                                
+
+                                <div class="c-project-card__meta">
+                                    <p>4,870 USD
+                                        <small class="u-block u-text-mute">Budget / Salary</small>
+                                    </p>
+                                    <p>Early Dec 2017
+                                        <small class="u-block u-text-danger">10 Days Remaining</small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-6 col-lg-6 col-xl-3">
+
+                        <div class="c-project-card u-mb-medium">
+                            <img class="c-project-card__img" src="img/project-card2.jpg" alt="About the image">
+
+                            <div class="c-project-card__content">
+                                <div class="c-project-card__head">
+                                    <h4 class="c-project-card__title">Design Competition 2018</h4>
+                                    <p class="c-project-card__info">Gourmet| Last Update: 29 Dec 2017</p>
+                                </div>
+                                
+
+                                <div class="c-project-card__meta">
+                                    <p>9,680 USD 
+                                        <small class="u-block u-text-mute">Budget / Salary</small>
+                                    </p>
+                                    <p>Late January
+                                        <small class="u-block u-text-mute">Deadline</small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-6 col-lg-6 col-xl-3">
+
+                        <div class="c-project-card u-mb-medium">
+                            <img class="c-project-card__img" src="img/project-card3.jpg" alt="About the image">
+
+                            <div class="c-project-card__content">
+                                <div class="c-project-card__head">
+                                    <h4 class="c-project-card__title">New Dashboard</h4>
+                                    <p class="c-project-card__info">Tapdaq  |  Last Update: 28 Nov 2017</p>
+                                </div>
+                                
+
+                                <div class="c-project-card__meta">
+                                    <p>4,870 USD
+                                        <small class="u-block u-text-mute">Budget / Salary</small>
+                                    </p>
+                                    <p>Early Dec 2017
+                                        <small class="u-block u-text-danger">15 Days Remaining</small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-6 col-lg-6 col-xl-3">
+
+                        <div class="c-project-card u-mb-medium">
+                            <img class="c-project-card__img" src="img/project-card4.jpg" alt="About the image">
+
+                            <div class="c-project-card__content">
+                                <div class="c-project-card__head">
+                                    <h4 class="c-project-card__title">Mobile App</h4>
+                                    <p class="c-project-card__info">Cofee & Co.  |  Last Update: 1 Dec 2016</p>
+                                </div>
+                                
+
+                                <div class="c-project-card__meta">
+                                    <p>8,760 USD
+                                        <small class="u-block u-text-mute">Budget / Salary</small>
+                                    </p>
+                                    <p>Early Dec 2017
+                                        <small class="u-block u-text-mute">6 Days Remaining</small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div><!-- // .row -->
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="c-card c-card--responsive u-mb-medium">
+                            <div class="c-card__header c-card__header--transparent o-line">
+                                <h5 class="c-card__title">Invoicing</h5>
+                                <a class="c-card__meta" href="#">View all invoices</a>
+                            </div>
+                            
+                            <table class="c-table u-border-zero">
+                                <tbody>
+                                    <tr class="c-table__row u-border-top-zero">
+                                        <td class="c-table__cell u-text-mute">00450</td>
+                                        <td class="c-table__cell">Design Works</td>
+                                        <td class="c-table__cell u-text-mute">Carlson Limited</td>
+                                        <td class="c-table__cell u-text-right">
+                                            <span class="c-badge c-badge--small c-badge--danger">Delayed</span>
+                                        </td>
+                                        <td class="c-table__cell">$2,580</td>
+                                    </tr>
+
+                                    <tr class="c-table__row">
+                                        <td class="c-table__cell u-text-mute">00569</td>
+                                        <td class="c-table__cell">New Illustrations</td>
+                                        <td class="c-table__cell u-text-mute">Twitter</td>
+                                        <td class="c-table__cell">
+                                            <span class="c-badge c-badge--small c-badge--warning">Pending Invoice</span>
+                                        </td>
+                                        <td class="c-table__cell">$2,580</td>
+                                    </tr>
+
+                                    <tr class="c-table__row">
+                                        <td class="c-table__cell u-text-mute">01875</td>
+                                        <td class="c-table__cell">UX Study</td>
+                                        <td class="c-table__cell u-text-mute">Re-Research</td>
+                                        <td class="c-table__cell u-text-right">
+                                            <span class="c-badge c-badge--small c-badge--success">Paid Today</span>
+                                        </td>
+                                        <td class="c-table__cell">$2,580</td>
+                                    </tr>
+
+                                    <tr class="c-table__row">
+                                        <td class="c-table__cell u-text-mute">00369</td>
+                                        <td class="c-table__cell">Landing Page</td>
+                                        <td class="c-table__cell u-text-mute">Travelsimo</td>
+                                        <td class="c-table__cell u-text-right">
+                                            <span class="c-badge c-badge--small c-badge--secondary">Paid Today</span>
+                                        </td>
+                                        <td class="c-table__cell">$2,580</td>
+                                    </tr>
+
+                                    <tr class="c-table__row">
+                                        <td class="c-table__cell u-text-mute">00689</td>
+                                        <td class="c-table__cell">iOS App Design</td>
+                                        <td class="c-table__cell u-text-mute">Silingo</td>
+                                        <td class="c-table__cell u-text-right">
+                                            <span class="c-badge c-badge--small c-badge--secondary">Paid Today</span>
+                                        </td>
+                                        <td class="c-table__cell">$2,580</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="c-card u-mb-medium">
+                            <div class="c-card__header c-card__header--transparent o-line">
+                                <h5 class="c-card__title">Tasks</h5>
+                                <a class="c-card__meta" href="#">View all all tasks</a>
+                            </div>
+
+                            <div class="c-todo u-border-top-zero">
+                                <input class="c-todo__input" id="todo1" type="checkbox" name="exampe-list">
+                                <label class="c-todo__label" for="todo1">
+                                    Create new prototype for the landing page
+                                </label>
+
+                                <span class="c-badge c-badge--danger c-badge--small">Due Today</span>
+                            </div><!-- // .c-todo -->
+
+                            <div class="c-todo">
+                                <input class="c-todo__input" id="todo2" type="checkbox" name="exampe-list">
+                                <label class="c-todo__label" for="todo2">
+                                    Add new Google Analytics code to all main files
+                                </label>
+
+                                <span class="c-badge c-badge--secondary c-badge--small">Due in 2 Days</span>
+                            </div><!-- // .c-todo -->
+
+                            <div class="c-todo">
+                                <input class="c-todo__input" id="todo3" type="checkbox" name="exampe-list">
+                                <label class="c-todo__label" for="todo3">
+                                    Finish Dashboard UI Kit update
+                                </label>
+
+                                <span class="c-badge c-badge--secondary c-badge--small">Due in 3 Days</span>
+                            </div><!-- // .c-todo -->
+
+                            <div class="c-todo is-completed">
+                                <input class="c-todo__input" id="todo4" type="checkbox" name="exampe-list" checked>
+                                <label class="c-todo__label" for="todo4">
+                                    Update parallax scroll on team page
+                                </label>
+
+                                <span class="c-badge c-badge--secondary c-badge--small">Due in 5 Days</span>
+                            </div><!-- // .c-todo -->
+
+                            <div class="c-todo is-completed">
+                                <input class="c-todo__input" id="todo5" type="checkbox" name="exampe-list" checked>
+                                <label class="c-todo__label" for="todo5">
+                                    Update parallax scroll on team page
+                                </label>
+
+                                <span class="c-badge c-badge--secondary c-badge--small">Due in 1 Week</span>
+                            </div><!-- // .c-todo -->
+                        </div>
+                    </div>
+                </div><!-- // .row -->
+
             </div><!-- // .container -->
             
         </main><!-- // .o-page__content -->
@@ -525,5 +715,4 @@
         <script src="../../www.google-analytics.com/analytics.js" async defer></script>
     </body>
 
-<!-- Mirrored from dashboard.zawiastudio.com/demo/plans.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Jun 2018 17:07:22 GMT -->
 </html>

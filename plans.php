@@ -1,11 +1,10 @@
 <!doctype html>
 <html lang="en-us">
     
-<!-- Mirrored from dashboard.zawiastudio.com/demo/user-profile.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Jun 2018 17:03:20 GMT -->
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>User Profile | Dashboard UI Kit</title>
+        <title>Plans / Pricing | Dashboard UI Kit</title>
         <meta name="description" content="Dashboard UI Kit">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -96,7 +95,7 @@
                 <h4 class="c-sidebar__title">Pages</h4>
                 <ul class="c-sidebar__list">
                     <li class="c-sidebar__item">
-                        <a class="c-sidebar__link is-active" href="user-profile.html">
+                        <a class="c-sidebar__link" href="user-profile.html">
                             <i class="fa fa-street-view u-mr-xsmall"></i>User Profile 
                         </a>
                     </li>
@@ -156,7 +155,7 @@
                     </li>
 
                     <li class="c-sidebar__item">
-                        <a class="c-sidebar__link" href="plans.html">
+                        <a class="c-sidebar__link is-active" href="plans.html">
                             <i class="fa fa-bullhorn u-mr-xsmall"></i>Pricing
                         </a>
                     </li>
@@ -257,7 +256,7 @@
                     <span class="c-sidebar-toggle__bar"></span>
                 </button><!-- // .c-sidebar-toggle -->
 
-                <h2 class="c-navbar__title u-mr-auto">Your Profile</h2>
+                <h2 class="c-navbar__title u-mr-auto">Pircing</h2>
                 
                 <div class="c-dropdown u-hidden-down@mobile">
                     <a class="c-notification dropdown-toggle" href="#" id="dropdownMenuUser" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -271,7 +270,7 @@
                         <a href="#" class="c-dropdown__item dropdown-item o-media">
                             <span class="o-media__img u-mr-xsmall">
                                 <span class="c-avatar c-avatar--xsmall">
-                                    <img class="c-avatar__img" src="img/avatar1-72.jpg" alt="User's Profile Picture">
+                                    <img class="c-avatar__img" src="img/avatar-72.jpg" alt="User's Profile Picture">
                                 </span>
                             </span>
                             <div class="o-media__body">
@@ -374,277 +373,144 @@
 
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-xl-7">
-
-                           <ul class="c-tabs__list nav nav-tabs" id="myTab" role="tablist">
-                                <li><a class="c-tabs__link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Activity</a></li>
-
-                                <li><a class="c-tabs__link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Blocked Users</a></li>
-
-                                <li><a class="c-tabs__link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">NDAs</a></li>
-
-                                <li><a class="c-tabs__link u-hidden-down@tablet" id="nav-customer-tab" data-toggle="tab" href="#nav-customer" role="tab" aria-controls="nav-customer" aria-selected="false">Customer Invoices</a></li>
-                            </ul>
-
-                            <div class="c-tabs__content tab-content u-mb-large" id="nav-tabContent">
-                                <div class="c-tabs__pane active u-pb-medium" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                                    
-                                    <p class="u-text-mute u-text-uppercase u-text-small u-mb-xsmall">Today</p>
-
-                                    <div class="c-feed">
-                                        <div class="c-feed__item c-feed__item--fancy">
-                                            <p>Gerald Vaughn changed the status to QA on <strong>MA-86 - Retargeting Ads</strong></p>
-
-                                            <p class="c-feed__comment">I’ve prepared all sizes for you. Can you take a look tonight so we can prepare my final invoice?</p>
-
-                                            <span class="c-feed__meta">New Dashboard Design - 9:24PM</span>
-                                        </div>
-
-                                        <div class="c-feed__item c-feed__item--success">
-                                            <p>Gerald Vaughn commented on <strong>DA-459 - Mediation: Demand Source Logo Size</strong></p>
-
-                                            <span class="u-text-mute u-text-small">Portfolio Updates for Jason Carroll - 7:12PM</span>
-                                        </div>
-
-                                        <div class="c-feed__item c-feed__item--fancy">
-                                            <p>Gerald Vaughn changed the status to QA on  <strong>MA-45 - Finish Prototype</strong></p>
-
-                                            <span class="c-feed__meta">New Dashboard Design - 11:30AM</span>
-                                        </div>
-                                    </div><!-- // .c-feed -->
-
-                                    <p class="u-text-mute u-text-uppercase u-text-small u-mb-xsmall">Yesterday</p>
-
-                                    <div class="c-feed">
-                                        <div class="c-feed__item c-feed__item--info">
-                                            <p>Gerald Vaughn attached 5 files to <strong>9054 - Find good stocks for our Instagram channel</strong></p>
-
-                                            <div class="c-feed__gallery">
-
-                                                <div class="c-feed__gallery-item">
-                                                    <img src="img/feed1.jpg" alt="Images' title">
-                                                </div>
-
-                                                <div class="c-feed__gallery-item">
-                                                    <img src="img/feed2.jpg" alt="Images' title">
-                                                </div>
-
-                                                <div class="c-feed__gallery-item">
-                                                    <img src="img/feed3.jpg" alt="Images' title">
-                                                </div>
-
-                                                <div class="c-feed__gallery-item">
-                                                    <img src="img/feed4.jpg" alt="Images' title">
-                                                </div>
-
-                                                <div class="c-feed__gallery-item">
-                                                    <img src="img/feed5.jpg" alt="Images' title">
-                                                </div>
-                                               
-                                            </div>
-
-                                            <span class="c-feed__meta">Marketing Templates & Strategy - 7:59AM</span>
-                                        </div>
-
-                                        <div class="c-feed__item c-feed__item--success">
-                                            <p>Gerald Vaughn commented on <strong>Find good stocks for our Instagram channel</strong></p>
-
-                                            <p class="c-feed__comment">What do you think about these? Should I continue in this style?</p>
-
-                                            <span class="c-feed__meta">Marketing Templates & Strategy - 7:58AM</span>
-                                        </div>
-
-                                        <div class="c-feed__item c-feed__item--fancy">
-                                            <p>Gerald Vaughn changed the status to In Progress on <strong>Find good stocks for our Instagram channel</strong></p>
-                                            <span class="c-feed__meta">Marketing Templates & Strategy - 6:30AM</span>
-                                        </div>
-                                    </div><!-- // .c-feed -->
-
-                                    <p class="u-text-mute u-text-uppercase u-text-small u-mb-xsmall">28 January</p>
-
-                                    <div class="c-feed u-mb-zero">
-                                        <div class="c-feed__item c-feed__item--success">
-                                            <p>Gerald Vaughn attached 6 files to <strong>1007 - Background Inspiration</strong></p>
-
-                                            <div class="c-feed__gallery">
-
-                                                <div class="c-feed__gallery-item">
-                                                    <img src="img/feed7.jpg" alt="Images' title">
-                                                </div>
-
-                                                <div class="c-feed__gallery-item">
-                                                    <img src="img/feed8.jpg" alt="Images' title">
-                                                </div>
-
-                                                <div class="c-feed__gallery-item">
-                                                    <img src="img/feed9.jpg" alt="Images' title">
-                                                </div>
-
-                                                <div class="c-feed__gallery-item">
-                                                    <img src="img/feed3.jpg" alt="Images' title">
-                                                </div>
-
-                                                <div class="c-feed__gallery-item">
-                                                    <img src="img/feed2.jpg" alt="Images' title">
-                                                </div>
-                                                <div class="c-feed__gallery-item">
-                                                    <img src="img/feed1.jpg" alt="Images' title">
-                                                </div>
-                                               
-                                            </div>
-
-                                            <span class="c-feed__meta">Templates & Inspiration - 11:50AM</span>
-                                        </div>
-                                    </div><!-- // .c-feed -->
-
-                                </div>
-
-                                <div class="c-tabs__pane u-pb-medium" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                                    <p class="u-mb-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et quidem modi atque at aliquid expedita nemo incidunt exercitationem nihil sit. Laudantium suscipit id amet saepe ratione, accusamus. Voluptatum in, nam.</p>
-
-                                    <p class="u-mb-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A voluptate nobis tenetur mollitia incidunt quod, est veniam, earum nemo! Alias rerum saepe aut sapiente minus sunt doloribus tempora corrupti in!</p>
-
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea distinctio nostrum molestias assumenda, repudiandae consequuntur quae pariatur aut incidunt placeat doloremque doloribus! Recusandae nostrum dolore repudiandae libero mollitia, rem eveniet.</p>
-                                </div>
-
-                                <div class="c-tabs__pane u-pb-medium" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                                    <p class="u-mb-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et quidem modi atque at aliquid expedita nemo incidunt exercitationem nihil sit. Laudantium suscipit id amet saepe ratione, accusamus. Voluptatum in, nam.</p>
-
-                                    <p class="u-mb-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A voluptate nobis tenetur mollitia incidunt quod, est veniam, earum nemo! Alias rerum saepe aut sapiente minus sunt doloribus tempora corrupti in!</p>
-                                </div>
-
-                                <div class="c-tabs__pane u-pb-medium" id="nav-customer" role="tabpanel" aria-labelledby="nav-customer-tab">
-                                    <p class="u-mb-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et quidem modi atque at aliquid expedita nemo incidunt exercitationem nihil sit. Laudantium suscipit id amet saepe ratione, accusamus. Voluptatum in, nam.</p>
-
-                                    <p class="u-mb-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A voluptate nobis tenetur mollitia incidunt quod, est veniam, earum nemo! Alias rerum saepe aut sapiente minus sunt doloribus tempora corrupti in!</p>
-
-                                    <p class="u-mb-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A voluptate nobis tenetur mollitia incidunt quod, est veniam, earum nemo! Alias rerum saepe aut sapiente minus sunt doloribus tempora corrupti in!</p>
-                                    
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et quidem modi atque at aliquid expedita nemo incidunt exercitationem nihil sit. Laudantium suscipit id amet saepe ratione, accusamus. Voluptatum in, nam.</p>
+                    <div class="col-12">
+                        <div class="c-card u-p-medium">
+                            <div class="row u-justify-center">
+                                <div class="col-md-7">
+                                    <div class="u-mt-large u-text-center">
+                                        <h4 class="u-mb-xsmall">Small startup? Big company? We’ve got a plan.</h4>
+                                        <p class="u-text-mute u-mb-large">Pricing is based on two things: Number of opened projects, and the number of seats you want for your team. Plans start at $19/month.</p>
+                                    </div>
                                 </div>
                             </div>
 
-                    </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <article class="c-plan">
+                                        <img class="c-plan__img" src="img/price-icon.svg" alt="Pricing Icon">
+                                        
+                                        <h5 class="c-plan__title">Basic</h5>
 
-                    <div class="col-xl-5">
-                        <div class="c-card u-p-medium u-mb-medium">
+                                        <h4 class="c-plan__price">
+                                        $19<span class="u-text-mute u-h6">/month</span></h4>
 
-                            <div class="u-text-center">
-                                <div class="c-avatar c-avatar--large u-mb-small u-inline-flex">
-                                    <img class="c-avatar__img" src="img/avatar-150.jpg" alt="Adam's Face">
+                                        <h5 class="c-plan__note">max. 1 user</h5>
+
+                                        <span class="c-plan__divider"></span>
+
+                                        <ul>
+                                            <li class="c-plan__feature">
+                                                <span>10</span> Projects
+                                            </li>
+                                            <li class="c-plan__feature">
+                                                <span>3</span> Clients
+                                            </li>
+                                            <li class="c-plan__feature">
+                                                <span>Unlimited</span> Messages
+                                            </li>
+                                        </ul>
+
+                                        <a href="#" class="c-btn c-btn--success u-mt-medium">Contact US</a>
+                                    </article><!-- // .c-plan -->
                                 </div>
 
-                                <h3 class="u-h5">Gerald Vaughn</h3>
-                                <p>Freelance Designer, Previously TapQ</p>
-                                <span class="u-text-mute u-text-small">London, United Kingdom</span>
-                            </div>
+                                <div class="col-md-3">
 
-                            <div class="u-flex u-mt-medium">
-                                <a class="c-btn c-btn--info c-btn--fullwidth u-mr-xsmall" href="#">Edit Profile</a>
-                                <a class="c-btn c-btn--secondary c-btn--fullwidth" href="#">View Profile As</a>
-                            </div>
+                                    <article class="c-plan">
+                                        <img class="c-plan__img" src="img/price-icon2.svg" alt="Pricing Icon">
+                                        
+                                        <h5 class="c-plan__title">Basic</h5>
 
-                            <table class="c-table u-text-center u-pv-small u-mt-medium u-border-right-zero u-border-left-zero">
-                                <thead>
-                                    <tr>
-                                        <th class="u-pt-small">
+                                        <h4 class="c-plan__price">
+                                        $19<span class="u-text-mute u-h6">/month</span></h4>
 
-                                            <div class="c-rating">
-                                                <i class="c-rating__icon is-active fa fa-star"></i>
-                                                <i class="c-rating__icon is-active fa fa-star"></i>
-                                                <i class="c-rating__icon is-active fa fa-star"></i>
-                                                <i class="c-rating__icon is-active fa fa-star"></i>
-                                                <i class="c-rating__icon fa fa-star"></i>
-                                            </div>
-                                            
-                                        </th>
-                                        <th class="u-pt-small u-color-primary">38</th>
-                                        <th class="u-pt-small u-color-primary">54</th>
-                                        <th class="u-pt-small u-color-primary">186</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="u-text-mute u-text-xsmall u-pb-small u-text-uppercase">Rating</td>
-                                        <td class="u-text-mute u-text-xsmall u-pb-small u-text-uppercase">Review</td>
-                                        <td class="u-text-mute u-text-xsmall u-pb-small u-text-uppercase">Clients</td>
-                                        <td class="u-text-mute u-text-xsmall u-pb-small u-text-uppercase">Finished Gigs</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                                        <h5 class="c-plan__note">max. 1 user</h5>
 
-                            <div class="c-feed has-icons u-mt-medium">
-                                <div class="c-feed__item has-icon">
-                                    <i class="c-feed__item-icon u-bg-info fa fa-tumblr"></i>
-                                    <p>Product Designer</p>
-                                    <span class="c-feed__meta">Tumblr- London, United Kingdom</span>
+                                        <span class="c-plan__divider"></span>
+
+                                        <ul>
+                                            <li class="c-plan__feature">
+                                                <strong>10</strong> Projects
+                                            </li>
+                                            <li class="c-plan__feature">
+                                                <strong>3</strong> Clients
+                                            </li>
+                                            <li class="c-plan__feature">
+                                                <strong>Unlimited</strong> Messages
+                                            </li>
+                                        </ul>
+
+                                        <a href="#" class="c-btn c-btn--warning u-mt-medium">Contact US</a>
+                                    </article><!-- // .c-plan -->
+
                                 </div>
 
-                                <div class="c-feed__item has-icon">
-                                    <i class="c-feed__item-icon u-bg-fancy fa fa-dropbox"></i>
-                                    <p>Intern</p>
-                                    <p class="c-feed__meta">Dropbox - Berlin, Germany</p>
-                                </div>
-                            </div>
+                                <div class="col-md-3">
 
-                            <div class="u-pt-medium u-border-top u-text-center">
-                                <a class="u-text-mute u-text-small" href="https://workspace.com/geraldvaughn">
-                                    <i class="fa fa-globe u-mr-xsmall"></i>https://workspace.com/geraldvaughn
-                                </a>
+                                    <article class="c-plan">
+                                        <img class="c-plan__img" src="img/price-icon3.svg" alt="Pricing Icon">
+                                        
+                                        <h5 class="c-plan__title">Basic</h5>
+
+                                        <h4 class="c-plan__price">
+                                        $19<span class="u-text-mute u-h6">/month</span></h4>
+
+                                        <h5 class="c-plan__note">max. 1 user</h5>
+
+                                        <span class="c-plan__divider"></span>
+
+                                        <ul>
+                                            <li class="c-plan__feature">
+                                                <span>10</span> Projects
+                                            </li>
+                                            <li class="c-plan__feature">
+                                                <span>3</span> Clients
+                                            </li>
+                                            <li class="c-plan__feature">
+                                                <span>Unlimited</span> Messages
+                                            </li>
+                                        </ul>
+
+                                        <a href="#" class="c-btn c-btn--info u-mt-medium">Contact US</a>
+                                    </article><!-- // .c-plan -->
+
+                                </div>
+
+                                <div class="col-md-3">
+
+                                    <article class="c-plan">
+                                        <img class="c-plan__img" src="img/price-icon4.svg" alt="Pricing Icon">
+                                        
+                                        <h5 class="c-plan__title">Basic</h5>
+
+                                        <h4 class="c-plan__price">
+                                        $19<span class="u-text-mute u-h6">/month</span></h4>
+
+                                        <h5 class="c-plan__note">max. 1 user</h5>
+
+                                        <span class="c-plan__divider"></span>
+
+                                        <ul>
+                                            <li class="c-plan__feature">
+                                                <span>10</span> Projects
+                                            </li>
+                                            <li class="c-plan__feature">
+                                                <span>3</span> Clients
+                                            </li>
+                                            <li class="c-plan__feature">
+                                                <span>Unlimited</span> Messages
+                                            </li>
+                                        </ul>
+
+                                        <a href="#" class="c-btn c-btn--fancy u-mt-medium">Contact US</a>
+                                    </article><!-- // .c-plan -->
+
+                                </div>
                             </div>
                         </div>
-
-                        <div class="c-card u-p-medium u-mb-medium">
-                            <h5 class="u-mb-medium">Billing</h5>
-
-                            <table class="c-table u-border-zero">
-                                <thead class="c-table__head u-border-bottom">
-                                    <tr>
-                                        <th class="c-table__cell u-text-left u-p-zero u-pb-medium u-flex u-align-items-center">
-                                            <img class="u-mr-xsmall" src="img/visa.png" alt="Credit Card">Ending **** 5896
-                                        </th>
-                                        <th class="c-table__cell u-text-right u-p-zero u-pb-medium">05 / 19</th>
-                                        <th class="c-table__cell u-text-right u-p-zero u-pb-medium">
-                                            <span class="u-text-mute">VISA</span>
-                                        </th>
-                                    </tr>
-                                </thead>
-                                <tbody class="u-pt-medium">
-                                    <tr class="c-table__row u-border-zero">
-                                        <td class="c-table__cell u-p-zero u-pb-xsmall u-pt-medium">PRO Package</td>
-                                        <td class="c-table__cell u-p-zero u-pb-xsmall u-pt-medium">
-                                            <span class="u-text-mute">Standard Payment</span>
-                                        </td>
-                                        <td class="c-table__cell u-p-zero u-pb-xsmall u-pt-medium u-text-right">
-                                            <span class="u-text-mute">19 Jan 2018</span>
-                                        </td>
-                                    </tr>
-                                    <tr class="c-table__row u-border-zero">
-                                        <td class="c-table__cell u-p-zero u-pb-xsmall">Job Posted</td>
-                                        <td class="c-table__cell u-p-zero u-pb-xsmall">
-                                            <span class="u-text-mute">30-Days Recuring</span>
-                                        </td>
-                                        <td class="c-table__cell u-p-zero u-pb-xsmall u-text-right">
-                                            <span class="u-text-mute">24 Nov 2017</span>
-                                        </td>
-                                    </tr>
-                                    <tr class="c-table__row u-border-zero">
-                                        <td class="c-table__cell u-p-zero u-pb-xsmall">PRO Package</td>
-                                        <td class="c-table__cell u-p-zero u-pb-xsmall">
-                                            <span class="u-text-mute">Gift</span>
-                                        </td>
-                                        <td class="c-table__cell u-p-zero u-pb-xsmall u-text-right">
-                                            <span class="u-text-mute">7 Mar 2017</span> 
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
                     </div>
-
-                </div>
-
-            </div><!-- // .container-fluid -->
+                </div><!-- // .row -->
+            </div><!-- // .container -->
             
         </main><!-- // .o-page__content -->
         
@@ -658,5 +524,4 @@
         <script src="../../www.google-analytics.com/analytics.js" async defer></script>
     </body>
 
-<!-- Mirrored from dashboard.zawiastudio.com/demo/user-profile.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Jun 2018 17:05:47 GMT -->
 </html>

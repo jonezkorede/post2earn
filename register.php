@@ -1,11 +1,10 @@
 <!doctype html>
 <html lang="en-us">
     
-<!-- Mirrored from dashboard.zawiastudio.com/demo/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Jun 2018 17:07:27 GMT -->
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Log in | Dashboard UI Kit</title>
+        <title>Register | Dashboard UI Kit</title>
         <meta name="description" content="Dashboard UI Kit">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -30,12 +29,12 @@
                     <a class="c-card__icon" href="#!">
                         <img src="img/logo-login.svg" alt="Dashboard UI Kit">
                     </a>
-                    <h1 class="u-h3 u-text-center u-mb-zero">Welcome back! Please login.</h1>
+                    <h1 class="u-h3 u-text-center u-mb-zero">Sign up to Get Started</h1>
                 </header>
                 
                 <form class="c-card__body">
                     <div class="c-field u-mb-small">
-                        <label class="c-field__label" for="input1">Log in with your e-mail address</label> 
+                        <label class="c-field__label" for="input1">E-mail address</label> 
                         <input class="c-input" type="email" id="input1" placeholder="clark@dashboard.com"> 
                     </div>
 
@@ -44,9 +43,14 @@
                         <input class="c-input" type="password" id="input2" placeholder="Numbers, Letters..."> 
                     </div>
 
-                    <button class="c-btn c-btn--info c-btn--fullwidth" type="submit">Sign in to Dashboard</button>
+                    <div class="c-field u-mb-small">
+                        <label class="c-field__label" for="input3">Confirm Password</label> 
+                        <input class="c-input" type="password" id="input3" placeholder="Confirm Password"> 
+                    </div>
 
-                    <span class="c-divider c-divider--small has-text u-mv-medium">Login via social networks</span>
+                    <button class="c-btn c-btn--info c-btn--fullwidth" type="submit">Sign Up</button>
+
+                    <span class="c-divider has-text c-divider--small u-mv-medium">Singup via social networks</span>
 
                     <div class="o-line">
                         <a class="c-icon u-bg-twitter" href="#!">
@@ -69,9 +73,11 @@
             </div>
 
             <div class="o-line">
-                <a class="u-text-mute u-text-small" href="register.html">Don’t have an account yet? Get Started</a>
-                <a class="u-text-mute u-text-small" href="forgot-password.html">Forgot Password?</a>
+                <a class="u-text-mute u-text-small" href="login.html" title="Login">
+                    <i class="fa fa-long-arrow-left u-mr-xsmall"></i> Already have an account, login instead
+                </a>
             </div>
+        
         </div>
 
         <!-- Main javascsript -->
@@ -84,5 +90,4 @@
         <script src="../../www.google-analytics.com/analytics.js" async defer></script>
     </body>
 
-<!-- Mirrored from dashboard.zawiastudio.com/demo/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Jun 2018 17:07:27 GMT -->
 </html>

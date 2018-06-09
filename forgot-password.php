@@ -1,11 +1,10 @@
 <!doctype html>
 <html lang="en-us">
     
-<!-- Mirrored from dashboard.zawiastudio.com/demo/reset-password.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Jun 2018 17:07:27 GMT -->
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Reset Password | Dashboard UI Kit</title>
+        <title>Forgot Password | Dashboard UI Kit</title>
         <meta name="description" content="Dashboard UI Kit">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -32,23 +31,21 @@
                     </a>
                     <div class="row u-justify-center">
                         <div class="col-9">
-                            <h1 class="u-h3 u-mb-zero">Reset your password</h1>
+                            <h1 class="u-h3">Forgot your password</h1>
+                            <p class="u-h6 u-text-mute">
+                                Enter your email address to receive password reset instructions
+                            </p>
                         </div>
                     </div>
                 </header>
                 
                 <form class="c-card__body">
                     <div class="c-field u-mb-small">
-                        <label class="c-field__label" for="input1">Your New Password</label>
-                        <input class="c-input" type="password" id="input1" placeholder="Numbers, Letters..."> 
+                        <label class="c-field__label" for="input1">Email Address:</label>
+                        <input class="c-input" type="email" id="input1" placeholder="clark@dashboard.com"> 
                     </div>
 
-                    <div class="c-field u-mb-small">
-                        <label class="c-field__label" for="input2">Confirm Password</label>
-                        <input class="c-input" type="password" id="input2" placeholder="Re-enter Password"> 
-                    </div>
-
-                    <button class="c-btn c-btn--info c-btn--fullwidth" type="submit">Reset password</button>
+                    <button class="c-btn c-btn--info c-btn--fullwidth" type="submit">Send Password Reset Instructions</button>
                 </form>
             </div>
 
@@ -67,5 +64,4 @@
         <script src="../../www.google-analytics.com/analytics.js" async defer></script>
     </body>
 
-<!-- Mirrored from dashboard.zawiastudio.com/demo/reset-password.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Jun 2018 17:07:27 GMT -->
 </html>
