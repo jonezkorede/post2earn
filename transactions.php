@@ -72,10 +72,11 @@
                     <span class="c-sidebar-toggle__bar"></span>
                 </button>
 
-                <h2 class="c-navbar__title u-mr-auto">Invoices</h2>
-                <a href="#!" class="c-btn c-btn--success u-mr-small">New Invoice</a>
-
-                <div class="c-dropdown dropdown">
+                <h2 class="c-navbar__title u-mr-auto">Transactions</h2>
+                <a href="#!" class="c-btn c-btn--primary u-mr-small"><i class="fa fa-cloud-upload u-mr-xsmall"></i>Deposit</a>
+                    <a class="c-btn c-btn--info u-mr-xsmall" href="#!">
+                        <i class="fa fa-cloud-download u-mr-xsmall"></i>Withdraw
+                    </a>
                     <a  class="c-avatar c-avatar--xsmall has-dropdown dropdown-toggle" href="#" id="dropdwonMenuAvatar" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <img class="c-avatar__img" src="img/avatar-72.jpg" alt="User's Profile Picture">
                     </a>
