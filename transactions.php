@@ -257,7 +257,7 @@
                                             <span class="u-text-mute">15 Dec 2017</span>
                                         </td>
                                         <td class="c-table__cell">
-                                            <span class="c-badge c-badge--small c-badge--success">Paid</span>
+                                            <span class="c-badge c-badge--small c-badge--success">Successful</span>
                                         </td>
                                         <td class="c-table__cell">$887</td>
 
@@ -293,7 +293,7 @@
                                             <span class="u-text-mute">12 Apr 2017</span>
                                         </td>
                                         <td class="c-table__cell">
-                                            <span class="c-badge c-badge--small c-badge--warning">Pending</span>
+                                            <span class="c-badge c-badge--small c-badge--danger">Failed</span>
                                         </td>
                                         <td class="c-table__cell">$1200</td>
                                         <td class="c-table__cell  u-text-right">
@@ -315,215 +315,7 @@
                                         </td>
                                     </tr><!-- // .table__row -->
 
-                                    <tr class="c-table__row">
-                                        <td class="c-table__cell"><span class="u-text-mute">00452</span></td>
-                                        <td class="c-table__cell">New Dashboard</td>
-                                        <td class="c-table__cell">
-                                            <span class="u-text-mute">Bluewolf</span>
-                                        </td>
-                                        <td class="c-table__cell">
-                                            <span class="u-text-mute">87952621</span>
-                                        </td>
-                                        <td class="c-table__cell">
-                                            <span class="u-text-mute">23 Oct 2017</span>
-                                        </td>
-                                        <td class="c-table__cell">
-                                            <span class="c-badge c-badge--small c-badge--warning">Pending</span>
-                                        </td>
-                                        <td class="c-table__cell">$534</td>
-                                        <td class="c-table__cell u-text-right">
-                                            <a href="invoice.html" class="c-btn c-btn--info u-mr-xsmall">Manage</a>
-                                            <div class="c-dropdown dropdown">
-                                                <button class="c-btn c-btn--secondary has-dropdown dropdown-toggle" id="dropdownMenuButton30" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Actions</button>
-                                                
-                                                <div class="c-dropdown__menu dropdown-menu" aria-labelledby="dropdownMenuButton30">
-                                                    <a class="c-dropdown__item dropdown-item" href="#">Complete</a>
-                                                    <a class="c-dropdown__item dropdown-item" href="#">Share</a>
-                                                    <a class="c-dropdown__item dropdown-item" href="#">Archive</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td class="c-table__cell">
-                                            <a class="u-text-mute" href="invoice.html">
-                                                <i class="fa fa-cloud-download"></i>
-                                            </a>
-                                        </td>
-                                    </tr><!-- // .table__row -->
-
-                                    <tr class="c-table__row">
-                                        <td class="c-table__cell"><span class="u-text-mute">00450</span></td>
-                                        <td class="c-table__cell">Landing Page</td>
-                                        <td class="c-table__cell">
-                                            <span class="u-text-mute">Salesforce</span>
-                                        </td>
-                                        <td class="c-table__cell">
-                                            <span class="u-text-mute">87953421</span>
-                                        </td>
-                                        <td class="c-table__cell">
-                                            <span class="u-text-mute">2 Sep 2017</span>
-                                        </td>
-                                        <td class="c-table__cell">
-                                            <span class="c-badge c-badge--small c-badge--secondary">Due in 2 Weeks</span>
-                                        </td>
-                                        <td class="c-table__cell">$1500</td>
-                                        <td class="c-table__cell u-text-right">
-                                            <a href="invoice.html" class="c-btn c-btn--info u-mr-xsmall">Manage</a>
-                                            <div class="c-dropdown dropdown">
-                                                <button class="c-btn c-btn--secondary has-dropdown dropdown-toggle" id="dropdownMenuButton40" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Actions</button>
-                                                
-                                                <div class="c-dropdown__menu dropdown-menu" aria-labelledby="dropdownMenuButton40">
-                                                    <a class="c-dropdown__item dropdown-item" href="#">Complete</a>
-                                                    <a class="c-dropdown__item dropdown-item" href="#">Share</a>
-                                                    <a class="c-dropdown__item dropdown-item" href="#">Archive</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td class="c-table__cell">
-                                            <a class="u-text-mute" href="invoice.html">
-                                                <i class="fa fa-cloud-download"></i>
-                                            </a>
-                                        </td>
-                                    </tr><!-- // .table__row -->
-
-                                    <tr class="c-table__row">
-                                        <td class="c-table__cell"><span class="u-text-mute">00450</span></td>
-                                        <td class="c-table__cell">Marketing Templates</td>
-                                        <td class="c-table__cell">
-                                            <span class="u-text-mute">Printic</span>
-                                        </td>
-                                        <td class="c-table__cell">
-                                            <span class="u-text-mute">87956621</span>
-                                        </td>
-                                        <td class="c-table__cell">
-                                            <span class="u-text-mute">29 Jan 2018</span>
-                                        </td>
-                                        <td class="c-table__cell">
-                                            <span class="c-badge c-badge--small c-badge--danger">Paid Today</span>
-                                        </td>
-                                        <td class="c-table__cell">$648</td>
-                                        <td class="c-table__cell u-text-right">
-                                            <a href="invoice.html" class="c-btn c-btn--info u-mr-xsmall">Manage</a>
-                                            <div class="c-dropdown dropdown">
-                                                <button class="c-btn c-btn--secondary has-dropdown dropdown-toggle" id="dropdownMenuButton50" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Actions</button>
-                                                
-                                                <div class="c-dropdown__menu dropdown-menu" aria-labelledby="dropdownMenuButton50">
-                                                    <a class="c-dropdown__item dropdown-item" href="#">Complete</a>
-                                                    <a class="c-dropdown__item dropdown-item" href="#">Share</a>
-                                                    <a class="c-dropdown__item dropdown-item" href="#">Archive</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td class="c-table__cell">
-                                            <a class="u-text-mute" href="invoice.html">
-                                                <i class="fa fa-cloud-download"></i>
-                                            </a>
-                                        </td>
-                                    </tr><!-- // .table__row -->
-
-                                    <tr class="c-table__row">
-                                        <td class="c-table__cell"><span class="u-text-mute">00450</span></td>
-                                        <td class="c-table__cell">Sales Presentation</td>
-                                        <td class="c-table__cell">
-                                            <span class="u-text-mute">Tabdaq</span>
-                                        </td>
-                                        <td class="c-table__cell">
-                                            <span class="u-text-mute">87956621</span>
-                                        </td>
-                                        <td class="c-table__cell">
-                                            <span class="u-text-mute">4 Feb 2018</span>
-                                        </td>
-                                        <td class="c-table__cell">
-                                            <span class="c-badge c-badge--small c-badge--secondary">Due in 3 Weeks</span>
-                                        </td>
-                                        <td class="c-table__cell">$300</td>
-                                        <td class="c-table__cell u-text-right">
-                                            <a href="invoice.html" class="c-btn c-btn--info u-mr-xsmall">Manage</a>
-                                            <div class="c-dropdown dropdown">
-                                                <button class="c-btn c-btn--secondary has-dropdown dropdown-toggle" id="dropdownMenuButton60" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Actions</button>
-                                                
-                                                <div class="c-dropdown__menu dropdown-menu" aria-labelledby="dropdownMenuButton60">
-                                                    <a class="c-dropdown__item dropdown-item" href="#">Complete</a>
-                                                    <a class="c-dropdown__item dropdown-item" href="#">Share</a>
-                                                    <a class="c-dropdown__item dropdown-item" href="#">Archive</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td class="c-table__cell">
-                                            <a class="u-text-mute" href="invoice.html">
-                                                <i class="fa fa-cloud-download"></i>
-                                            </a>
-                                        </td>
-                                    </tr><!-- // .table__row -->
-
-                                    <tr class="c-table__row">
-                                        <td class="c-table__cell"><span class="u-text-mute">00450</span></td>
-                                        <td class="c-table__cell">Logo & Print</td>
-                                        <td class="c-table__cell">
-                                            <span class="u-text-mute">Apple</span>
-                                        </td>
-                                        <td class="c-table__cell">
-                                            <span class="u-text-mute">87956621</span>
-                                        </td>
-                                        <td class="c-table__cell">
-                                            <span class="u-text-mute">22 Mar 2018</span>
-                                        </td>
-                                        <td class="c-table__cell">
-                                            <span class="c-badge c-badge--small c-badge--success">Paid Today</span>
-                                        </td>
-                                        <td class="c-table__cell">$2500</td>
-                                        <td class="c-table__cell u-text-right">
-                                            <a href="invoice.html" class="c-btn c-btn--info u-mr-xsmall">Manage</a>
-                                            <div class="c-dropdown dropdown">
-                                                <button class="c-btn c-btn--secondary has-dropdown dropdown-toggle" id="dropdownMenuButton70" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Actions</button>
-                                                
-                                                <div class="c-dropdown__menu dropdown-menu" aria-labelledby="dropdownMenuButton70">
-                                                    <a class="c-dropdown__item dropdown-item" href="#">Complete</a>
-                                                    <a class="c-dropdown__item dropdown-item" href="#">Share</a>
-                                                    <a class="c-dropdown__item dropdown-item" href="#">Archive</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td class="c-table__cell">
-                                            <a class="u-text-mute" href="invoice.html">
-                                                <i class="fa fa-cloud-download"></i>
-                                            </a>
-                                        </td>
-                                    </tr><!-- // .table__row -->
-
-                                    <tr class="c-table__row">
-                                        <td class="c-table__cell"><span class="u-text-mute">00450</span></td>
-                                        <td class="c-table__cell">Icons</td>
-                                        <td class="c-table__cell">
-                                            <span class="u-text-mute">Tookapic</span>
-                                        </td>
-                                        <td class="c-table__cell">
-                                            <span class="u-text-mute">87956621</span>
-                                        </td>
-                                        <td class="c-table__cell">
-                                            <span class="u-text-mute">13 May 2018</span>
-                                        </td>
-                                        <td class="c-table__cell">
-                                            <span class="c-badge c-badge--small c-badge--success">Paid Today</span>
-                                        </td>
-                                        <td class="c-table__cell">$940</td>
-                                        <td class="c-table__cell u-text-right">
-                                            <a href="invoice.html" class="c-btn c-btn--info u-mr-xsmall">Manage</a>
-                                            <div class="c-dropdown dropdown">
-                                                <button class="c-btn c-btn--secondary has-dropdown dropdown-toggle" id="dropdownMenuButton80" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Actions</button>
-                                                
-                                                <div class="c-dropdown__menu dropdown-menu" aria-labelledby="dropdownMenuButton80">
-                                                    <a class="c-dropdown__item dropdown-item" href="#">Complete</a>
-                                                    <a class="c-dropdown__item dropdown-item" href="#">Share</a>
-                                                    <a class="c-dropdown__item dropdown-item" href="#">Archive</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td class="c-table__cell">
-                                            <a class="u-text-mute" href="invoice.html">
-                                                <i class="fa fa-cloud-download"></i>
-                                            </a>
-                                        </td>
-                                    </tr><!-- // .table__row -->
+                                    
                                 </tbody>
                             </table>
                         </div><!-- // .c-card -->
