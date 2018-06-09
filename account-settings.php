@@ -178,10 +178,9 @@
                         <img class="c-avatar__img" src="img/avatar-72.jpg" alt="User's Profile Picture">
                     </a>
 
-                    <div class="c-dropdown__menu dropdown-menu dropdown-menu-right" aria-labelledby="dropdwonMenuAvatar">
-                        <a class="c-dropdown__item dropdown-item" href="#">Edit Profile</a>
-                        <a class="c-dropdown__item dropdown-item" href="#">View Activity</a>
-                        <a class="c-dropdown__item dropdown-item" href="#">Manage Roles</a>
+                   <div class="c-dropdown__menu dropdown-menu dropdown-menu-right" aria-labelledby="dropdwonMenuAvatar">
+                        <a class="c-dropdown__item dropdown-item" href="account-settings.php">Edit Profile</a>
+                        <a class="c-dropdown__item dropdown-item" href="logout.php">Logout</a>
                     </div>
                 </div>
             </header>
