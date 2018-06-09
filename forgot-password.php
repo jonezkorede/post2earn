@@ -4,8 +4,8 @@
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Forgot Password | Dashboard UI Kit</title>
-        <meta name="description" content="Dashboard UI Kit">
+        <title>Forgot Password | Toption</title>
+        <meta name="description" content="Toption">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Google Font -->

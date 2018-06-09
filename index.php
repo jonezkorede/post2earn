@@ -4,8 +4,8 @@
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Home Overview | Dashboard UI Kit</title>
-        <meta name="description" content="Dashboard UI Kit">
+        <title>Home Overview | Toption</title>
+        <meta name="description" content="Toption">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Google Font -->
@@ -496,7 +496,7 @@
                             <div class="c-todo">
                                 <input class="c-todo__input" id="todo3" type="checkbox" name="exampe-list">
                                 <label class="c-todo__label" for="todo3">
-                                    Finish Dashboard UI Kit update
+                                    Finish Toption update
                                 </label>
 
                                 <span class="c-badge c-badge--secondary c-badge--small">Due in 3 Days</span>
