@@ -259,19 +259,11 @@
                                         <td class="c-table__cell">
                                             <span class="c-badge c-badge--small c-badge--success">Successful</span>
                                         </td>
-                                        <td class="c-table__cell">$887</td>
+                                        <td class="c-table__cell">&#8358;2500</td>
 
                                         <td class="c-table__cell u-text-right">
-                                            <a href="invoice.html" class="c-btn c-btn--info u-mr-xsmall">Manage</a>
-                                            <div class="c-dropdown dropdown">
-                                                <button class="c-btn c-btn--secondary has-dropdown dropdown-toggle" id="dropdownMenuButton10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Actions</button>
-                                                
-                                                <div class="c-dropdown__menu dropdown-menu" aria-labelledby="dropdownMenuButton10">
-                                                    <a class="c-dropdown__item dropdown-item" href="#">Complete</a>
-                                                    <a class="c-dropdown__item dropdown-item" href="#">Share</a>
-                                                    <a class="c-dropdown__item dropdown-item" href="#">Archive</a>
-                                                </div>
-                                            </div>
+                                            <a href="invoice.html" class="c-btn c-btn--info u-mr-xsmall">view Invoice</a>
+                                            
                                         </td>
                                         <td class="c-table__cell">
                                             <a class="u-text-mute" href="invoice.html">
@@ -295,18 +287,10 @@
                                         <td class="c-table__cell">
                                             <span class="c-badge c-badge--small c-badge--danger">Failed</span>
                                         </td>
-                                        <td class="c-table__cell">$1200</td>
+                                        <td class="c-table__cell">&#8358;5000</td>
                                         <td class="c-table__cell  u-text-right">
-                                            <a href="invoice.html" class="c-btn c-btn--info u-mr-xsmall">Manage</a>
-                                            <div class="c-dropdown dropdown">
-                                                <button class="c-btn c-btn--secondary has-dropdown dropdown-toggle" id="dropdownMenuButton20" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Actions</button>
-                                                
-                                                <div class="c-dropdown__menu dropdown-menu" aria-labelledby="dropdownMenuButton20">
-                                                    <a class="c-dropdown__item dropdown-item" href="#">Complete</a>
-                                                    <a class="c-dropdown__item dropdown-item" href="#">Share</a>
-                                                    <a class="c-dropdown__item dropdown-item" href="#">Archive</a>
-                                                </div>
-                                            </div>
+                                            <a href="invoice.html" class="c-btn c-btn--info u-mr-xsmall">view Invoice</a>
+                                            
                                         </td>
                                         <td class="c-table__cell">
                                             <a class="u-text-mute" href="invoice.html">
