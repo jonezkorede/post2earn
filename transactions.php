@@ -117,36 +117,35 @@
                                 <div class="col-md-4">
                                     <div class="c-summary has-divider">
                                         <h5 class="c-summary__title">Invoiced</h5>
-                                        <h5 class="c-summary__number">$2,190
-                                            <span class="c-summary__status u-bg-success">
+                                        <h5 class="c-summary__number">&#8358;7500                                            <span class="c-summary__status u-bg-success">
                                                 <i class="fa fa-caret-up"></i>
                                             </span>
                                         </h5>
-                                        <p class="c-summary__meta">Last Month: $2,890</p>
+                                        <p class="c-summary__meta">Last Month: &#8358;10,000</p>
                                     </div>
                                 </div>
 
                                 <div class="col-md-4">
                                     <div class="c-summary has-divider">
                                         <h5 class="c-summary__title">Profit</h5>
-                                        <h5 class="c-summary__number">$2,190
+                                        <h5 class="c-summary__number">&#8358;7500
                                             <span class="c-summary__status u-bg-danger">
                                                 <i class="fa fa-caret-down"></i>
                                             </span>
                                         </h5>
-                                        <p class="c-summary__meta">Last Month: $2,890</p>
+                                        <p class="c-summary__meta">Last Month: &#8358;10,000</p>
                                     </div>
                                 </div>
 
                                 <div class="col-md-4">
                                     <div class="c-summary">
                                         <h5 class="c-summary__title">Expenses</h5>
-                                        <h5 class="c-summary__number">$2,190
+                                        <h5 class="c-summary__number">&#8358;7500
                                             <span class="c-summary__status u-bg-success">
                                                 <i class="fa fa-caret-up"></i>
                                             </span>
                                         </h5>
-                                        <p class="c-summary__meta">Last Month: $2,890</p>
+                                        <p class="c-summary__meta">Last Month: &#8358;10,000</p>
                                     </div>
                                 </div>
                             </div><!-- // .row -->
