@@ -4,7 +4,7 @@
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Home Overview | Toption</title>
+        <title>Overview | Toption</title>
         <meta name="description" content="Toption">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -45,14 +45,8 @@
                     </li>
 
                     <li class="c-sidebar__item">
-                        <a class="c-sidebar__link" href="withdrawals.php">
-                            <i class="fa fa-line-chart u-mr-xsmall"></i>Withdrawals
-                        </a>
-                    </li>
-
-                    <li class="c-sidebar__item">
-                        <a class="c-sidebar__link" target="_blank" href="deposits.php">
-                            <i class="fa fa-rocket u-mr-xsmall"></i>Deposits
+                        <a class="c-sidebar__link" href="transactions.php">
+                            <i class="fa fa-line-chart u-mr-xsmall"></i>Transactions
                         </a>
                     </li>
 
