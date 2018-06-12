@@ -95,7 +95,7 @@
                             <div class="c-card__header c-card__header--transparent o-line u-border-bottom-zero">
                                 <h3 class="c-card__title">Monthly Summary
                                     <span class="u-block u-text-mute u-text-xsmall">
-                                        February 2017 (12 Days Remaining)
+                                        February 2018 (12 Days Remaining)
                                     </span>
                                 </h3>
 
