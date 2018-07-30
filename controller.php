@@ -13,7 +13,7 @@
     function fb(){
         $fb = new Facebook\Facebook([
             'app_id' => '194169717836257',
-            'app_secret' => '5caa9a85df67148b3e5de1eed078e2c3',
+            'app_secret' => '9907c3f051e704023243396f37f709e5',
             'default_graph_version' => 'v2.10',
             ]);
         return $fb;
