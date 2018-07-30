@@ -1,22 +1,12 @@
+<?php
+    require('controller.php');
+    $title = 'Log in to TOptions';
+?>
 <!doctype html>
 <html lang="en-us">
     
 <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Log in | Toption</title>
-        <meta name="description" content="Toption">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600" rel="stylesheet">
-
-        <!-- Favicon -->
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-
-        <!-- Stylesheet -->
-        <link rel="stylesheet" href="css/main.min3661.css?v=2.0">
+        <?php require 'includes/dashboard/head.php'; ?>
     </head>
     <body class="o-page o-page--center">
         <!--[if lte IE 9]>
@@ -29,11 +19,11 @@
                     <a class="c-card__icon" href="#!">
                         <img src="img/logo-login.svg" alt="Toption">
                     </a>
-                    <h1 class="u-h3 u-text-center u-mb-zero">Welcome back! Please login.</h1>
+                    <h2 class="u-h4 u-text-center u-mb-zero">Continue with Facebook or Twitter</h2>
                 </header>
                 
                 <form class="c-card__body">
-                    <div class="c-field u-mb-small">
+                    <!-- <div class="c-field u-mb-small">
                         <label class="c-field__label" for="input1">Log in with your e-mail address</label> 
                         <input class="c-input" type="email" id="input1" placeholder="clark@dashboard.com"> 
                     </div>
@@ -43,44 +33,29 @@
                         <input class="c-input" type="password" id="input2" placeholder="Numbers, Letters..."> 
                     </div>
 
-                    <button class="c-btn c-btn--info c-btn--fullwidth" type="submit">Sign in to Dashboard</button>
+                    <button class="c-btn c-btn--info c-btn--fullwidth" type="submit">Sign in to Dashboard</button> -->
 
-                    <span class="c-divider c-divider--small has-text u-mv-medium">Login via social networks</span>
+                    <!-- <span class="c-divider c-divider--small has-text u-mv-small">Login via Facebook or Twitter</span> -->
 
                     <div class="o-line">
-                        <a class="c-icon u-bg-twitter" href="#!">
+                        <a class="c-icon u-bg-twitter" href="<?php echo loginURL('twitter'); ?>">
                             <i class="fa fa-twitter"></i>
                         </a>
 
-                        <a class="c-icon u-bg-facebook" href="#!">
+                        <a class="c-icon u-bg-facebook" href="<?php echo loginURL('facebook'); ?>">
                             <i class="fa fa-facebook"></i>
                         </a>
 
-                        <a class="c-icon u-bg-pinterest" href="#!">
-                            <i class="fa fa-pinterest"></i>
-                        </a>
-
-                        <a class="c-icon u-bg-dribbble" href="#!">
-                            <i class="fa fa-dribbble"></i>
-                        </a>
                     </div>
                 </form>
             </div>
 
-            <div class="o-line">
-                <a class="u-text-mute u-text-small" href="register.html">Don’t have an account yet? Get Started</a>
-                <a class="u-text-mute u-text-small" href="forgot-password.html">Forgot Password?</a>
-            </div>
+           
         </div>
 
         <!-- Main javascsript -->
-        <script src="js/main.min3661.js?v=2.0"></script>
+        <script src="js/main.min3661.js"></script>
 
-        <script>
-            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-            ga('create','UA-88739867-2','auto');ga('send','pageview')
-        </script>
-        <script src="../../www.google-analytics.com/analytics.js" async defer></script>
     </body>
 
 </html>
