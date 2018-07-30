@@ -1,6 +1,7 @@
 <?php
     session_start();
     require __DIR__ . '/vendor/autoload.php';
+    require 'db.php';
     use Abraham\TwitterOAuth\TwitterOAuth;
 
     define("SITE_URL", $_SERVER['HTTP_HOST']);
@@ -30,12 +31,12 @@
         ];
     }
     function connectDB(){
-        // $cleardb_url = parse_url('mysql://b0f64272c12ba0:d3099c0b@us-cdbr-iron-east-04.cleardb.net/heroku_60c441c74647baf?reconnect=true');
-        // //cleardb server
-        // $cleardb_server   = $cleardb_url["host"];
-        // $cleardb_username = $cleardb_url["user"];
-        // $cleardb_password = $cleardb_url["pass"];
-        // $cleardb_db       = substr($cleardb_url["path"],1);
+        $cleardb_url = parse_url('mysql://b0f64272c12ba0:d3099c0b@us-cdbr-iron-east-04.cleardb.net/heroku_60c441c74647baf?reconnect=true');
+        //cleardb server
+        $cleardb_server   = $cleardb_url["host"];
+        $cleardb_username = $cleardb_url["user"];
+        $cleardb_password = $cleardb_url["pass"];
+        $cleardb_db       = substr($cleardb_url["path"],1);
         //local server
 		$servername = "localhost";
 		$username = "dr_hemm";
@@ -115,6 +116,7 @@
 		    // header('WWW-Authenticate: Basic realm="Access denied"');
         }
     }
-
-    requireData('GET');
+    $DB = new DB();
+    var_dump(DB::insert('INSERT INTO users(first_name, last_name)', array('Emmanuel', 'Popoola'), 'ss'));
+    // requireData('GET');
 ?>
