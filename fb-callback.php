@@ -67,7 +67,6 @@
         // Get the \Facebook\GraphNodes\GraphUser object for the current user.
         // If you provided a 'default_access_token', the '{access-token}' is optional.
         $response = $fb->get('/me', $accessToken->getValue());
-        echo 'response yea';
       } catch(\Facebook\Exceptions\FacebookResponseException $e) {
         // When Graph returns an error
         echo 'Graph returned an error: ' . $e->getMessage();
@@ -79,9 +78,14 @@
       }
       
       $me = $response->getGraphUser();
-      echo 'Logged in as ' . $me->getName();
+      if($me){
+        login($accessToken->getValue(), 'facebook');
+      }
+    //   var_dump($me);
+    //   echo 'Logged in as ' . $me->getName();
 
     // User is logged in with a long-lived access token.
     // You can redirect them to a members-only page.
     //header('Location: https://example.com/members.php');
+    
 ?>

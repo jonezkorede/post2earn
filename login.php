@@ -21,7 +21,7 @@
                     </a>
                     <h2 class="u-h4 u-text-center u-mb-zero">Continue with Facebook or Twitter</h2>
                 </header>
-                <?php echo 'http://'.SITE_URL.'/'; ?>
+                
                 <form class="c-card__body">
                     <!-- <div class="c-field u-mb-small">
                         <label class="c-field__label" for="input1">Log in with your e-mail address</label> 

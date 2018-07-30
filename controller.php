@@ -42,8 +42,8 @@
 		$password = "olaayo10";
         $dbname = "post2earn";
        
-        // $conn = new mysqli($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
-        $conn = new mysqli($servername, $username, $password, $dbname);
+        $conn = new mysqli($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
+        // $conn = new mysqli($servername, $username, $password, $dbname);
 		// Check connection
 		if ($conn->connect_error) {
 			die("Connection failed: " . $conn->connect_error);
@@ -68,6 +68,45 @@
                 break;
         }
 
+    }
+
+    function getUserDetails($access_token, $type){
+        if($type == 'facebook'){
+            $fb = fb();
+            try {
+                // Returns a `Facebook\FacebookResponse` object
+                $response = $fb->get('/me?fields=id,name,email', $access_token);
+            } 
+            catch(Facebook\Exceptions\FacebookResponseException $e) {
+                echo 'Graph returned an error: ' . $e->getMessage();
+                exit;
+            } 
+            catch(Facebook\Exceptions\FacebookSDKException $e) {
+                echo 'Facebook SDK returned an error: ' . $e->getMessage();
+                exit;
+            }
+                
+            $user = $response->getGraphUser();
+
+        }
+        elseif($type == 'twitter'){
+            // 
+        }
+
+        return $user;
+    }
+
+    function login($access_token, $type){
+        $user = getUserDetails($access_token, $type);
+
+        if($user && $type == 'facebook'){
+            $name = explode(' ', $user['name']);
+            $first_name = $name[0];
+            $last_name = end($name);
+            $email = $user['email'];
+            $fb_id = $user['id'];
+            $fb_access_token = $access_token;
+        }
     }
 
     function requireData($type= 'GET'){
