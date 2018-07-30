@@ -59,7 +59,7 @@
                 $fb = fb();
                 $helper = $fb->getRedirectLoginHelper();
                 $permissions = ['email']; // Optional permissions
-                $loginUrl = $helper->getLoginUrl(SITE_URL.'/fb-callback.php', $permissions);
+                $loginUrl = $helper->getLoginUrl('http://'.SITE_URL.'/fb-callback.php', $permissions);
                 return $loginUrl;
                 break;
             
