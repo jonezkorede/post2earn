@@ -56,8 +56,44 @@
 
             return $response;
         }
-        public function update($query, $data){
-            // 
+        public function update($table, $data, $type = '', $constraints = ''){
+            $link = DB::connect();
+            $query = 'UPDATE '.$table;
+            $values = array(); 
+            // $type = str_repeat('s', count($data));
+            $response = array();
+
+            $query .= " SET ";
+
+            foreach ($data as $key => $value) {
+                if ($i>0) {$query.= ",`".$key."` = ? ";} else {$query.= "`".$key."` = ?";}
+                array_push($values, $value);
+            }
+
+            $query .= $constraints;
+            array_push($response, ['query' => $query]);
+
+            if (count($data) > 0 && !empty($table) && !empty($type))
+            {
+                if($stmt = mysqli_prepare($link, $query)){
+                    mysqli_stmt_bind_param($stmt, $type, ...$values);
+                    if(mysqli_stmt_execute($stmt)){
+                        $rows = mysqli_stmt_affected_rows ($stmt);
+                        array_push($response, ['success' => true, 'affected_rows' => $rows]);
+                    }
+                    else{
+                        array_push($response, ['error' => 'Error updating the database.']);
+                    }
+                }
+                else{
+                    array_push($response, ['error' => 'Error updating the database.']);
+                }
+            }
+            else{
+                array_push($response, ['error' => 'Error: Number of elements in type definition string doesn\'t match number of bind variables']);
+            }
+
+            return $response; 
         }
         public function delete($query){
             // 

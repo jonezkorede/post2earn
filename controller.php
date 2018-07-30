@@ -117,6 +117,7 @@
         }
     }
     $DB = new DB();
-    var_dump(DB::insert('INSERT INTO users(first_name, last_name)', array('Emmanuel', 'Popoola'), 'ss'));
+    var_dump(DB::update('users', array('first_name'=> 'Emmanu'), 's'), 'WHERE 1');
+    // DB::insert('INSERT INTO users(first_name, last_name)', array('Emmanuel', 'Popoola'), 'ss');
     // requireData('GET');
 ?>
