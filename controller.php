@@ -11,6 +11,8 @@
     $log->pushHandler(new Monolog\Handler\StreamHandler('app.log', Monolog\Logger::WARNING));
     $log->addWarning('Foo');
 
+    $DB = new DB();
+
     function fb(){
         $fb = new Facebook\Facebook([
             'app_id' => '194169717836257',
@@ -116,8 +118,10 @@
 		    // header('WWW-Authenticate: Basic realm="Access denied"');
         }
     }
-    $DB = new DB();
-    var_dump(DB::update('users', array('first_name'=> 'Emmanu'), 's'), 'WHERE 1');
-    // DB::insert('INSERT INTO users(first_name, last_name)', array('Emmanuel', 'Popoola'), 'ss');
-    // requireData('GET');
+    
+    // var_dump();
+    // var_dump(DB::delete('users', 'WHERE 1'));
+    // var_dump(DB::select('users', ['*', 'columns2'] , 'WHERE 1'));
+    // var_dump(DB::insert('users', ['first_name' => 'Emmanuel', 'last_name'=>'Popoola'], 'ss'));
+    requireData('GET');
 ?>

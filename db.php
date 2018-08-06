@@ -1,4 +1,9 @@
 <?php
+
+// DB::update('users', ['first_name'=> 'Emmanu', 'last_name'=>'Popo'], 'ss', 'WHERE 1');
+// DB::delete('users', 'WHERE 1');
+// DB::select('users', ['*', 'columns2'] , 'WHERE 1');
+// DB::insert('users', ['first_name' => 'Emmanuel', 'last_name'=>'Popoola'], 'ss');
     class DB{
 
         public function connect(){
@@ -18,20 +23,30 @@
         
         
 
-        public function insert($query, $data, $type = "", $constraints = ""){
+        public function insert($table, $data, $type = "", $constraints = ""){
             $link = DB::connect();
             $count = count($data); 
+            $values = array(); 
             // $type = str_repeat('s', count($data));
             $response = array();
 
-            $SetValues = " values (";
-            for($i = 0; $i < $count; ++$i) {    
-                // array_push($type, 's');
-                if ($i>0) {$SetValues.=",?";} else {$SetValues.="?";}
-            }
+            $query = "INSERT INTO ".$table."(";
 
-            $SetValues.=")";
-            $query .= $SetValues. $constraints;
+            $i = 0;
+            foreach ($data as $key => $value) {
+                if ($i>0) {$query.= ",`".$key."`";} else {$query.= "`".$key."`";}
+                array_push($values, $value);
+                $i++;
+            }
+            
+            $query .= ') VALUES(';
+            $i = 0;
+            foreach ($values as $key => $value) {
+                if ($i>0) {$query.= ", ?";} else {$query.= "?";}
+                $i++;
+            }     
+            $query .= ') ';       
+            $query .= $constraints;
             array_push($response, ['query' => $query]);
 
             if (count($data) > 0 && !empty($query) && !empty($type))
@@ -56,7 +71,7 @@
 
             return $response;
         }
-        public function update($table, $data, $type = '', $constraints = ''){
+        public function update($table, $data, $type = '', $constraints = 'WHERE 1'){
             $link = DB::connect();
             $query = 'UPDATE '.$table;
             $values = array(); 
@@ -65,9 +80,12 @@
 
             $query .= " SET ";
 
+            $i = 0;
             foreach ($data as $key => $value) {
+                
                 if ($i>0) {$query.= ",`".$key."` = ? ";} else {$query.= "`".$key."` = ?";}
                 array_push($values, $value);
+                $i++;
             }
 
             $query .= $constraints;
@@ -86,7 +104,7 @@
                     }
                 }
                 else{
-                    array_push($response, ['error' => 'Error updating the database.']);
+                    array_push($response, ['error' => 'Unable to prepare MySQL query.']);
                 }
             }
             else{
@@ -95,11 +113,85 @@
 
             return $response; 
         }
-        public function delete($query){
-            // 
+        public function delete($table, $constraints = 'WHERE 1'){
+            $link = DB::connect();
+            $query = 'DELETE FROM '.$table;
+            $response = array();
+
+            $query .= " ";
+
+            $query .= $constraints;
+            array_push($response, ['query' => $query]);
+
+            if (!empty($table))
+            {
+                if($stmt = mysqli_prepare($link, $query)){
+                    if(mysqli_stmt_execute($stmt)){
+                        $rows = mysqli_stmt_affected_rows ($stmt);
+                        array_push($response, ['success' => true, 'affected_rows' => $rows]);
+                    }
+                    else{
+                        array_push($response, ['error' => 'Error deleting from the database.']);
+                    }
+                }
+                else{
+                    array_push($response, ['error' => 'Unable to prepare MySQL query.']);
+                }
+            }
+            else{
+                array_push($response, ['error' => 'Error: Expected table_name not given']);
+            }
+
+            return $response; 
         }
-        public function select($query){
-            // 
+        public function select($table, $data, $constraints){
+            $link = DB::connect();
+            $response = array();
+            if (empty($table)) {
+                array_push($response, ['error' => 'Error: Expected table_name not given']);
+            }
+            elseif(empty($data)){
+                array_push($response, ['error' => 'Error: Table columns to fetch']);
+            }
+            else{
+                $count = count($data); 
+                $values = array(); 
+                $query = "SELECT ";
+
+                for ($i=0; $i < $count; $i++) { 
+                    if ($i>0) {
+                        $query.= ", `".$data[$i]."`";
+                    } else {
+                        if(in_array('*', str_split($data[$i]))){
+                            
+                            $query.= $data[$i];
+                        }
+                        else{
+                            $query.= "`".$data[$i]."`";
+                        }
+                    }
+                }     
+
+
+                $query .= " FROM `".$table."` ".$constraints;
+                array_push($response, ['query' => $query]);
+
+                if($stmt = mysqli_prepare($link, $query)){
+                    if(mysqli_stmt_execute($stmt)){
+                        $result = mysqli_stmt_get_result($stmt);
+                        return $result;
+                    }
+                    else{
+                        array_push($response, ['error' => 'Error deleting from the database.']);
+                    }
+                }
+                else{
+                    array_push($response, ['error' => 'Unable to prepare MySQL query.']);
+                }
+                return $response;      
+                
+                
+            }
         }
     }
 ?>
